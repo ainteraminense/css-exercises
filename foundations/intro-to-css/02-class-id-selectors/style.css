@@ -1,0 +1,21 @@
+/* classes */
+.number-class {
+    background-color: #FFB6C1;
+    font-family: verdana, "DejaVu Sans", sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+/* ids */
+#number2 {
+    color: #0622c3;
+    font-size: 36px;
+}
+
+#number4 {
+    background-color: #64c964;
+    font-size: 24px;
+    font-weight: bold;
+}
