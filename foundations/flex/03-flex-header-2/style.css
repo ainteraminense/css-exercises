@@ -14,7 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
@@ -50,7 +49,8 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  padding-left: 0;
+  padding:0;
+  margin: 0;
   gap: 16px;
 }
 
@@ -58,6 +58,8 @@ ul {
 .left-container {
   display: flex;
   gap: 16px;
+  align-items: center;
+
 }
 
 
