@@ -3,7 +3,8 @@
   background: papayawhip;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 8px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -12,7 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: auto;
 }
 
 ul {
@@ -20,6 +20,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding-left: 0;
+  gap: 8px;
 }
 
 a {
@@ -28,6 +29,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 10px;
 }
 
