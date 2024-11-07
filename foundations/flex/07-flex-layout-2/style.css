@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .header {
@@ -37,6 +36,12 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 16px;
 }
 
 .sidebar a {
@@ -49,15 +54,16 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 0 1 150px;
-  height: 250px;
+  flex: 0 1 300px;
+  padding: 16px;
 }
 
 .container {
   display: flex;
+  flex: 1;
   margin: 0;
   padding: 0;
-  
+
 
 }
 
@@ -65,5 +71,5 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  gap: 16px;
+  gap: 32px;
 }
