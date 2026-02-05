@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -19,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -29,9 +28,6 @@ input {
   width: 400px;
 }
 
-li {
-  list-style: none;
-}
 
 li a {
   text-decoration: none;
@@ -42,7 +38,7 @@ li a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 16px;
 }
 
 .footer {
@@ -52,14 +48,17 @@ li a {
 .left-links,
 .right-links {
   display: flex;
+  list-style: none;
   gap: 16px;
+  margin: 0;
   padding: 0;
 }
 
 .content {
+  flex: 1;
   display: flex;
-  align-self: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 16px;
 }
